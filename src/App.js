@@ -1,10 +1,10 @@
 
-import './App.css';
+import Body from './Components/Body';
 
 function App() {
   return (
-    <div className="text-4xl font-bold text-red-800">
-    Let's build MoviesBox App 
+    <div>
+      <Body/>
     </div>
   );
 }
