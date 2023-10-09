@@ -11,7 +11,7 @@ const dispatch = useDispatch()
 const getupcomingMovies =  async ()=>{
 const data = await fetch('https://api.themoviedb.org/3/movie/upcoming', API_OPTIONS);
 const json =  await data.json();
-console.log("result",json.results);
+
 dispatch(addUpcomingMovies(json.results));
 }
 useEffect(()=>{
