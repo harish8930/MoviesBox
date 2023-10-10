@@ -25,4 +25,3 @@
 ]
 
 
-export  const OPENAI_KEY  = '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'
