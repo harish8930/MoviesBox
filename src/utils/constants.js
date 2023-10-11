@@ -24,9 +24,5 @@
   {identifier: "spanish", name: "spanish"},
 ]
 
-<<<<<<< HEAD
  
-export  const OPENAI_KEY  =  process.env.REACT_APP_OPENAI_KEY
-=======
-
->>>>>>> af517ee7b4aa63ccc9bb29e3de06f538d6cea775
+export const OPENAI_KEY  =  process.env.REACT_APP_OPENAI_KEY
