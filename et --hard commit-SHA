@@ -1,0 +1,11 @@
+[33m6b67467[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m HEAD@{0}: reset: moving to HEAD^
+[33md974b3f[m[33m ([m[1;31morigin/main[m[33m)[m HEAD@{1}: commit: gpt feature is done && app is completed
+[33m6b67467[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m HEAD@{2}: commit: made gpt page and multilingual feature succesfully
+[33m05857e9[m HEAD@{3}: commit: built main movie container
+[33ma30031b[m HEAD@{4}: commit: authentication done
+[33mb2410f9[m HEAD@{5}: commit: login/sinup && Header
+[33mbbbba09[m HEAD@{6}: commit: loginIn/signUp & Header
+[33m06659f8[m HEAD@{7}: commit: loginform/signupform header
+[33m4de4548[m HEAD@{8}: commit: App Started
+[33m41046a8[m HEAD@{9}: Branch: renamed refs/heads/master to refs/heads/main
+[33m41046a8[m HEAD@{11}: commit (initial): Initialize project using Create React App

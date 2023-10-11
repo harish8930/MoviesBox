@@ -1,19 +1,19 @@
 import React from 'react'
 import MovieCard from './MovieCard'
 
+
 const MovieList = ({title,movies}) => {
   return (
     <div className='px-6'>
-    <h1 className='text-3xl py-4 font-semibold text-white'>{title}</h1>
+    <h1 className='text-sm md:text-3xl py-4 font-semibold text-white'>{title}</h1>
     <div className='flex overflow-x-scroll no-scrollbar'>
 <div className='flex'>
-    {movies?.map(movie=> <MovieCard key={movie.id}   posterPath={movie.poster_path}/>)}
+{movies?.map(movie=> <MovieCard key={movie.id} posterPath={movie.poster_path}/>)}
 </div>
-
-    </div>
-    </div>
+</div>
+</div>
   )
 
 }
 
-export default MovieList
+export default MovieList;

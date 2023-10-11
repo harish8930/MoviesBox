@@ -8,7 +8,7 @@
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0YTE2NTZhNmZhOTI0ODUxOGY3NTYwOGRjNTYxMjJlNSIsInN1YiI6IjY1MjBmN2JiYzUwYWQyMDBhZDg0NzIzZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.rBb9cXTa7L4J52kd_MKraboLYBmF9ZKWFXDxFYDNdRs'
+      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0YTE2NTZhNmZhOTI0ODUxOGY3NTYwOGRjNTYxMjJlNSIsInN1YiI6IjY1MjBmN2JiYzUwYWQyMDBhZDg0NzIzZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.rBb9cXTa7L4J52kd_MKraboLYBmF9ZKWFXDxFYDNdRs',
     }
   };
   export  const IMG_CDN = 'https://image.tmdb.org/t/p/w500'
@@ -24,5 +24,5 @@
   {identifier: "spanish", name: "spanish"},
 ]
 
-
-export  const OPENAI_KEY  = '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'
+ 
+export  const OPENAI_KEY  =  process.env.REACT_APP_OPENAI_KEY

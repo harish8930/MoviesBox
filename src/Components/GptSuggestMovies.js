@@ -24,4 +24,4 @@ movies = {moviesResults[index]}
   )
 }
 
-export default GptSuggestMovies
+export default GptSuggestMovies;
