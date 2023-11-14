@@ -12,17 +12,21 @@
     }
   };
   export  const IMG_CDN = 'https://image.tmdb.org/t/p/w500'
-  export const BG_IMAGE = 'https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/netflixteaser.png'
+  export const BG_IMAGE = 'https://assets.nflxext.com/ffe/siteui/vlv3/77d35039-751f-4c3e-9c8d-1240c1ca6188/cf244808-d722-428f-80a9-052acdf158ec/IN-en-20231106-popsignuptwoweeks-perspective_alpha_website_large.jpg'
 
+
+
+   export const BG_IMAGE2 = 'https://assets.nflxext.com/ffe/siteui/vlv3/77d35039-751f-4c3e-9c8d-1240c1ca6188/cf244808-d722-428f-80a9-052acdf158ec/IN-hi-20231106-popsignuptwoweeks-perspective_alpha_website_large.jpg'
 
  // export const BG_IMAGE = 'https://assets.nflxext.com/ffe/siteui/vlv3/fc164b4b-f085-44ee-bb7f-ec7df8539eff/d23a1608-7d90-4da1-93d6-bae2fe60a69b/IN-en-20230814-popsignuptwoweeks-perspective_alpha_website_large.jpg'
 
 
   export const SUPPORTED_LANGUAGES = [
   {identifier: "en", name: "English"},
-  {identifier: "hindi", name: "hindi"},
-  {identifier: "spanish", name: "spanish"},
+  {identifier: "hindi", name: "Hindi"},
+
 ]
+
 
  
 export const OPENAI_KEY  =  process.env.REACT_APP_OPENAI_KEY

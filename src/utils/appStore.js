@@ -4,6 +4,7 @@ import moviesReducer from './moviesSlice'
 import gptReducer from './gptSlice'
 import configReducer from './configSlice'
 
+
 const appStore = configureStore({
   reducer: {
     user: userReducer,

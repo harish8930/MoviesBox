@@ -22,4 +22,4 @@ state.moviesResults = moviesResults;
 
 
 export const {toggleGptSearchView,addGptMovieResult} = gptSlice.actions
-export default gptSlice.reducer;
+export default gptSlice.reducer;    

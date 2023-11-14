@@ -25,7 +25,8 @@ state.topRatedMovies = action.payload
 },
 addMoviesUpComing : (state,action)=>{
     state.moviesUpComing = action.payload
-}
+},
+
 },
 })
 
