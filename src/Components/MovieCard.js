@@ -1,4 +1,3 @@
-
 import { Link } from 'react-router-dom';
 import { IMG_CDN } from '../utils/constants'
 
@@ -20,6 +19,7 @@ const MovieCard = ({posterPath,movieId}) => {
   </>
   )
 }
+
 
 
 export default MovieCard; 
